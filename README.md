@@ -1,0 +1,2 @@
+# microservices-kafka-shop-app
+Diese Microservices Anwendung soll demonstrieren, wie man mit dem devonfw Framework eine eventbasierte lose gekoppelte Anwendung konzipiert und entwickelt. Anders als bei monolithischen Anwendungen besteht das Gesamtsystem aus mehreren kleineren Microservices und nicht nur einer ausführbaren Datei. Einzelne Microservices kommunizieren lose gekoppelt über Apache Kafka miteinander. 
