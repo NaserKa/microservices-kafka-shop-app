@@ -1,0 +1,3 @@
+2019-10-20 23:01:03 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+INSERT INTO User(name, lastname, adress, city) VALUES ('Max', 'Mustermann', 'Luisenstr. 10', 'Frankfurt') [42102-199]

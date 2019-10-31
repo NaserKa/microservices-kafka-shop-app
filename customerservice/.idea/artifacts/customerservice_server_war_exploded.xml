@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="customerservice-server:war exploded">
+    <output-path>$PROJECT_DIR$/server/target/customerservice-server-1.0.0</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>customerservice-server</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="customerservice-server" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="customerservice-core-1.0.0.jar">
+            <element id="module-output" name="customerservice-core" />
+          </element>
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.26" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/server/target/customerservice-server-1.0.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="customerservice-server/web/Web" />
+    </root>
+  </artifact>
+</component>

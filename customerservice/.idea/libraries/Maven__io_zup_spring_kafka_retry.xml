@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.zup:spring-kafka-retry">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zup/spring-kafka-retry/spring-kafka-retry-.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zup/spring-kafka-retry/spring-kafka-retry--javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zup/spring-kafka-retry/spring-kafka-retry--sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

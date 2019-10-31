@@ -1,0 +1,10 @@
+2019-10-21 13:01:54 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE *[*] FROM CUSTOMER
+
+INSERT INTO CUSTOMER(MODIFICATIONCOUNTER, NAME, LASTNAME, ADRESS, CITY) VALUES (1, 'Max', 'Mustermann', 'Luisenstr. 10', 'Frankfurt') "; expected "identifier"; SQL statement:
+DELETE * FROM Customer
+
+INSERT INTO Customer(modificationCounter, name, lastname, adress, city) VALUES (1, 'Max', 'Mustermann', 'Luisenstr. 10', 'Frankfurt') [42001-199]
+2019-10-21 13:02:32 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE *[*] FROM CUSTOMER "; expected "identifier"; SQL statement:
+DELETE * FROM Customer [42001-199]
