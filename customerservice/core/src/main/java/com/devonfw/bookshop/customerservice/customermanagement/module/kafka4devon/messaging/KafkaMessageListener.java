@@ -36,7 +36,7 @@ public class KafkaMessageListener {
                         @Header(KafkaHeaders.RECEIVED_TIMESTAMP) Long timestamp) throws IOException {
         CustomerEntity customerEntity = new CustomerEntity();
         customerEntity = converter.convertJsonToObject(message, CustomerEntity.class);
-        customerEntity.setName("bauerrrr");
+        customerEntity.setName("Test");
         LOG.info("- - - - - - - - - - - - - - -");
         LOG.info("Received Message: {}", customerEntity.getId());
         LOG.info("topic: {}", topic);
