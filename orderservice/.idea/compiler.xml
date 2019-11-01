@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="orderservice-api" />
+        <module name="orderservice-core" />
+        <module name="orderservice-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="orderservice" target="1.8" />
+      <module name="orderservice-api" target="1.8" />
+      <module name="orderservice-core" target="1.8" />
+      <module name="orderservice-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

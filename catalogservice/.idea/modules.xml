@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/catalogservice.iml" filepath="$PROJECT_DIR$/catalogservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/catalogservice-api.iml" filepath="$PROJECT_DIR$/api/catalogservice-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/catalogservice-core.iml" filepath="$PROJECT_DIR$/core/catalogservice-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/catalogservice-server.iml" filepath="$PROJECT_DIR$/server/catalogservice-server.iml" />
+    </modules>
+  </component>
+</project>
