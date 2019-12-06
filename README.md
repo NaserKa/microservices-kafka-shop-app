@@ -15,7 +15,7 @@ The Kafka module for devon4j serves the publication of news to Kafka. The method
 For various reasons, it is possible to use the following functions when processing messages lead to mistakes by the consumer. Often, either a service is not available or the message format was selected incorrectly. Therefore
 a Retry Pattern for handling errors was created for this problem. In the following, the Retry Pattern from Fig. 4.6 is explained.
 
-1 The application receives a message from a Topic
+1. The application receives a message from a Topic
 2. an error occurs during the processing of the message, the message is sent to a re-delivery topic
 3. on successful delivery of the message, in this Topic confirmed.
 4. the message is removed from the delivery list with a certain delay.Topic processed.
