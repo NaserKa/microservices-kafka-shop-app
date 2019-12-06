@@ -13,7 +13,7 @@ The Kafka module for devon4j serves the publication of news to Kafka. The method
 
 ### Retry Pattern ###
 For various reasons, it is possible to use the following functions when processing messages lead to mistakes by the consumer. Often, either a service is not available or the message format was selected incorrectly. Therefore
-a Retry Pattern for handling errors was created for this problem. In the following, the Retry Pattern from Fig. 4.6 is explained.
+a Retry Pattern for handling errors was created for this problem. In the following, the Retry Pattern from figure below is explained.
 
 1. The application receives a message from a Topic
 2. an error occurs during the processing of the message, the message is sent to a re-delivery topic
@@ -23,3 +23,5 @@ a Retry Pattern for handling errors was created for this problem. In the followi
 6. the message from the re-delivery topic is confirmed.
 7. messages in the dead letter database have to be confirmed by an administrator. can be processed manually. The message is then either with the message that is in the undeliverable topic
 merged or deleted.
+
+![picture alt](http://via.placeholder.com/200x150 "Title is optional")
