@@ -16,13 +16,10 @@ For various reasons, it is possible to use the following functions when processi
 a Retry Pattern for handling errors was created for this problem. In the following, the Retry Pattern from Fig. 4.6 is explained.
 
 1 The application receives a message from a Topic
-2. an error occurs during the processing of the message,
-the message is sent to a re-delivery topic
-3. on successful delivery of the message, in this Topic
-confirmed.
+2. an error occurs during the processing of the message, the message is sent to a re-delivery topic
+3. on successful delivery of the message, in this Topic confirmed.
 4. the message is removed from the delivery list with a certain delay.Topic processed.
-5 The processing of the message failed again. The message
-is persisted in a dead letter database.
+5 The processing of the message failed again. The message is persisted in a dead letter database.
 6. the message from the re-delivery topic is confirmed.
 7. messages in the dead letter database have to be confirmed by an administrator. can be processed manually. The message is then either with the message that is in the undeliverable topic
 merged or deleted.
