@@ -24,4 +24,4 @@ a Retry Pattern for handling errors was created for this problem. In the followi
 7. messages in the dead letter database have to be confirmed by an administrator. can be processed manually. The message is then either with the message that is in the undeliverable topic
 merged or deleted.
 
-![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+![picture alt](https://github.com/NaserKa/microservices-kafka-shop-app/blob/master/Retrypattern.png "Retry Pattern")
